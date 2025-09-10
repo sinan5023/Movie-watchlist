@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie-Watch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <div class="button-container">
+          <button class="selected" id="search">Search</button>
+          <button  id="watchlist">Watchlist</button>
+        </div>
+      </section>
+      <section id="searchContainer">
+        <input
+          type="text"
+          id="searchBox"
+          placeholder="please enter a movie"
+          class="search-box"
+        />
+        <button class="search-button" onclick="search()">Search</button>
+        <div class="movie-container">
+          
+        </div>
+      </section>
+      <section id="watchlist-box">
+        <div class="container">
+           <div class="watchlist-container">
+          
+        </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
